@@ -15,8 +15,7 @@ Set appropriate permissions.
 Change to that directory and create an index.jsp again with appropriate permissions.
 
 Complete Learning Java Applications Chapter 6 in the lab using this environment by using the following instead:
-
-'''
+```
 <!-- will be hosted at http://munro.humber.ca/~n12345678/ceng254/index.jsp -->
 <%@page import = "java.sql.*" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
