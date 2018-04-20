@@ -16,7 +16,8 @@ Set appropriate permissions.  Note that you need at least executable writes on a
 
 Change to that directory and create an index.jsp again with appropriate permissions.
 
-Complete Learning Java Applications Chapter 6 in the lab using this environment by using the following instead:
+We now want to create a dynamic website that displays the a query as part of the HTML. Complete the page below to have this done.  If you haven't already done so, you can take a look at the <a href=""> This video</a> to get some theory behind these commands.
+
 ```
 <!-- will be hosted at http://munro.humber.ca/~n12345678/ceng254/index.jsp -->
 <%@page import = "java.sql.*" %>
