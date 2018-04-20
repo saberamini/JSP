@@ -35,8 +35,8 @@ We now want to create a dynamic website that displays the a query as part of the
          <%
                 Connection c = DriverManager.getConnection("jdbc:oracle:thin:@apollo.humber.ca:1521:msit" ,"n12345678", "ORACLE");
                 Statement s = c.createStatement();
-
-                String query = ("SELECT * FROM medri.labtenstudent");
+                
+                String query = ("SELECT * FROM STUDENT");
                 ResultSet result = s.executeQuery(query);
                 while (result.next()) {
                         %>
