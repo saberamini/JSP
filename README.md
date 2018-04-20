@@ -1,4 +1,4 @@
-
+  
 
 Use an ssh terminal such as PuTTY to connect to munro.humber.ca
 
@@ -10,7 +10,9 @@ Create the directory:
 
 > /home/students/n12345678/public_html/ceng254
 
-Set appropriate permissions.
+Set appropriate permissions.  Note that you need at least executable writes on all your directories.  To do this use the command:
+
+> chmod o+x directoryName
 
 Change to that directory and create an index.jsp again with appropriate permissions.
 
